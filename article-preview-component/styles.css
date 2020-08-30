@@ -1,0 +1,34 @@
+body {
+    background-color: #ebf7ee;
+    height: 100vh;
+    width: 100vw;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.article-preview {
+    height: 30%;
+    width: 90%;
+    background-color: rgb(236, 242, 248);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-preview .article-preview-img-block {
+    width: 15%;
+    height: 50%;
+}
+
+.article-preview .article-preview-body {
+    width: 35%;
+    height: 50%;
+}
